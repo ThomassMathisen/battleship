@@ -1,6 +1,6 @@
 # Battleship
 
-Battleship game built with React and Typescript as part of The Odin Project:
+Battleship game built with React and TypeScript as part of The Odin Project:
 https://www.theodinproject.com/lessons/node-path-javascript-battleship
 
 Play it here:
