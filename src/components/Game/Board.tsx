@@ -15,7 +15,7 @@ const Board = ({ gameboard, owner, enemy, onFieldClick }: Props) => {
     const fields = []
     for (let row = 0; row < gameboard.board.length; row++) {
       for (let column = 0; column < gameboard.board[row].length; column++) {
-        const fields = gameboard.board[row][column]
+        const field = gameboard.board[row][column]
         let status = 'default'
         if (field) {
           if (owner.name !== 'Computer') status = 'ship'

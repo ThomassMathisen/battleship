@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Button from "../elements/button";
+import Button from "../elements/Button";
 
 interface Props {
   message: string

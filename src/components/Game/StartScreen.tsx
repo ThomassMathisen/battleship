@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled, { css } from "styled-components";
 import Gameboard from "src/factories/Gameboard";
 import Ship from "../../factories/Ship";
-import Button from "../elements/button";
+import Button from "../elements/Button";
 import { v4 as uuidv4 } from "uuid"
 
 interface Props {
