@@ -4,8 +4,8 @@ import Ship from "../Ship"
 describe('Gameboard', () => {
   let gameboard: Gameboard
   let ship: Ship
-  let testObjectArray: object[]
-  let testBooleanArray: boolean[]
+  let testObjectArray: object[][]
+  let testBooleanArray: boolean[][]
 
   beforeEach(() => {
     gameboard = new Gameboard()
